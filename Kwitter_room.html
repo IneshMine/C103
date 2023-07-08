@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset =  "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale 1.0">
+
+        <link rel = "stylesheet" href="Kwitter_room.css">
+        <script src="kwitter_room.js"></script>
+    </head>
+    <body>
+      <div id="container">
+        <div id="logoutdiv">
+        <button id="logout" onclick="logout()">Logout</button>
+        </div>
+        <center>
+            <h1 id="main_name">
+                Let's Chat!
+
+                <sup>
+                  <img src="LetschatLOGO.png" id="logo1">
+                </sup>
+            </h1>
+            <h3 id="user_name" class="color_white">hello</h3>
+
+            <div id="main">
+                <label id="label">Add Room: </label>
+                <input type="text" id="room_name" class="form-control" placeholder="Room Name Here!">
+
+            </div>
+            <button onclick="addRoom()"  id="addRoom">Add Room Now!</button>
+
+            <h3 id="new">#NEWROOMS</h3>
+
+            <div id="output"></div>
+        </center>
+      </div>
+    </body>
+</html>
